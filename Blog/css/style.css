@@ -1,0 +1,115 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background: url("../images/body-back.png");
+    font-family: "PT Sans", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    text-shadow: none !important;
+    color: #444;
+}
+
+.errors {
+    color: red;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/*-----------------INDEX--------------------*/
+
+/*===================Header=================*/
+
+header {
+    background: url("../images/header-back.png") repeat;
+}
+
+h1,h3 {
+    font-weight: normal;
+    color: #666;
+    margin: 3px 0;
+    padding: 3px 0;
+}
+
+header>a{
+    color: #666;
+}
+
+h1>a{
+    color: inherit;
+}
+
+h1>a:hover{
+    text-decoration: none;
+}
+
+.logon {
+    margin: 7%;
+}
+
+/*===================Navbar=================*/
+
+#navbar{
+    background: #30add1 !important;
+    border-top: 1px solid #29a1c4 !important;
+    border-bottom: 1px solid #29a1c4 !important;
+}
+
+.navbar-nav a {
+    color: white;
+}
+.navbar-nav a:hover {
+    background: #29a1c4 !important;
+    transition: 1s;
+}
+
+/*===================Articles=================*/
+
+article {
+    margin: 20px 0;
+}
+
+.tittle-articles {
+    margin: 10px;
+}
+
+.hashtags {
+    margin: 5px 0;
+}
+
+.comments {
+    margin: 0 5px 0 0;
+}
+
+
+/*-----------------AUTHORIZATION--------------------*/
+
+.authorization {
+    margin: 40px 0;
+}
+
+/*-----------------REGISTRATION--------------------*/
+
+
+/*--------------------CABINET----------------------*/
+
+.to-article-add {
+    margin: 30px 0 0 0;
+}
+
+.button-update{
+    margin: 1px;
+    float: left;
+}
+
+.button-del{
+    margin: 1px
+}
+
+/*--------------------ADDARTICLES----------------------*/
+
+.add-article {
+    margin: 30px 0;
+}
